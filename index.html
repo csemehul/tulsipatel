@@ -3,81 +3,95 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tulsi Patel's Portfolio</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>Tulsi Patel | Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <div class="container">
-            <h1>Tulsi Patel</h1>
-            <p>Computer Engineering Student at Parul University</p>
-        </div>
+        <h1>Tulsi Patel</h1>
+        <p>Student | Computer Engineering</p>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
     </header>
-    <nav>
-        <ul id="nav-menu">
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#certifications">Certifications</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-        <div id="nav-toggle" class="nav-toggle">
-            <div class="bar"></div>
-            <div class="bar"></div>
-            <div class="bar"></div>
+    
+    <section id="hero">
+        <div class="hero-content">
+            <h2>Welcome to My Portfolio</h2>
+            <p>Explore my journey in Computer Engineering and my passion for technology.</p>
         </div>
-    </nav>
-    <div class="container">
-        <section id="about">
-            <h2>About Me</h2>
-            <p>Hello! I’m Tulsi Patel, a passionate Computer Engineering student at Parul University, Vadodara. I excel in software and application development and have a knack for solving real-world problems. My strong project management skills, combined with technical expertise, have allowed me to lead and deliver successful projects. I’m always eager to learn new technologies and look forward to bringing my skills to a forward-thinking company.</p>
-        </section>
-        <section id="skills">
-            <h2>Skills</h2>
+    </section>
+    
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>Hello! I’m Tulsi Patel, a passionate Computer Engineering student at Parul University, Vadodara. I excel in software and application development and have a knack for solving real-world problems. My strong project management skills, combined with technical expertise, have allowed me to lead and deliver successful projects. I’m always eager to learn new technologies and look forward to bringing my skills to a forward-thinking company.</p>
+    </section>
+    
+    <section id="education" class="section">
+        <h2>Education</h2>
+        <div class="card">
+            <h3>Parul University</h3>
+            <p>Duration: 2022 - 2025</p>
+            <p>Bachelor of Science: Computer Engineering</p>
+        </div>
+    </section>
+    
+    <section id="skills" class="section">
+        <h2>Skills</h2>
+        <div class="card">
             <ul>
                 <li>Project Development</li>
                 <li>Leadership Skills</li>
                 <li>Organization Skills</li>
                 <li>Documentation and Reporting</li>
             </ul>
-        </section>
-        <section id="experience">
-            <h2>Experience</h2>
-            <h3>Project Leader | TULSI - Vadodara | 11/2023 - 03/2024</h3>
+        </div>
+    </section>
+    
+    <section id="experience" class="section">
+        <h2>Experience</h2>
+        <div class="card">
+            <h3>Project Leader | TULSI - Vadodara</h3>
+            <p>Duration: 11/2023 - 03/2024</p>
             <ul>
                 <li>Maintained schedule of class assignments to meet deadlines.</li>
                 <li>Developed and updated project plans to document objectives, technologies, schedules, and funding.</li>
                 <li>Collaborated with engineers and project managers regarding design parameters for client projects.</li>
                 <li>Analyzed customer feedback to identify areas of improvement in products or services.</li>
             </ul>
-        </section>
-        <section id="education">
-            <h2>Education</h2>
-            <h3>Parul University | Vadodara | Expected in 07/2025</h3>
-            <p>Bachelor of Science: Computer Engineering</p>
-        </section>
-        <section id="projects">
-            <h2>Projects</h2>
-            <p>(Include any projects you have worked on, with a brief description and technologies used.)</p>
-        </section>
-        <section id="certifications">
-            <h2>Certifications and Accomplishments</h2>
+        </div>
+    </section>
+    
+    <section id="certifications" class="section">
+        <h2>Certifications</h2>
+        <div class="card">
             <ul>
                 <li>Networking Essentials at Cisco Academy</li>
                 <li>Full Stack Web Development on Coursera</li>
                 <li>Software Engineering and Data Science certification by Swayam NPTEL</li>
             </ul>
-        </section>
-        <section id="contact">
-            <h2>Contact Me</h2>
-            <p>Email: 2203031057084@paruluniversity.ac.in</p>
-            <p>Phone: 8238898394</p>
-            <p>Address: Vadodara, 390001</p>
-        </section>
-    </div>
-    <script src="js/script.js"></script>
+        </div>
+    </section>
+    
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+        <p>Email: 2203031057084@paruluniversity.ac.in</p>
+        <p>Phone: 8238898394</p>
+        <p>Address: Vadodara, 390001</p>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Tulsi Patel. All rights reserved.</p>
+    </footer>
+    
+    <script src="scripts.js"></script>
 </body>
 </html>
